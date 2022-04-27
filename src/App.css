@@ -1,5 +1,10 @@
+/* <!-- Bangla Font  --> */
+@import url(//fonts.googleapis.com/earlyaccess/notosansbengali.css);
+
 .App {
   text-align: center;
+  font-family: 'Noto Sans Bengali', sans-serif;
+  font-size: 20px;
 }
 
 .App-logo {
@@ -32,7 +37,54 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Topbanner */
+
+.backgroundColor1 {
+  background: #F0FFF0;
+
+
+}
+
+.tCardImg {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.cardh2 {
+  border: none;
+}
+
+.cardh {
+  height: 230px;
+  width: 240px;
+  background: #F8FFFB;
+
+
+}
+
+.counterImg {
+  height: 60%;
+  width: 60%;
+
+}
+
+.counterImg2 {
+  height: 60%;
+  width: 60%;
+
+}
+
+.smalltext {
+  font-size: 10px;
+}
+
+.smalltext2 {
+  font-size: 12px;
 }
