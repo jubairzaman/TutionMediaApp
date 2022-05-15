@@ -16,7 +16,7 @@ const Topnav = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">হোম</Nav.Link>
+                            <Nav.Link href="/home">হোম</Nav.Link>
 
                             <NavDropdown title="সার্ভিসসমূহ" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">গৃহ শিক্ষক প্রয়োজন ?</NavDropdown.Item>
@@ -27,6 +27,7 @@ const Topnav = () => {
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#action2">হেল্প</Nav.Link>
+                            <Nav.Link href="/about">আমাদের সম্পর্কে</Nav.Link>
                         </Nav>
                         <Button variant="success" size="sm">
                             Sing In

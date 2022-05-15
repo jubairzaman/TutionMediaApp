@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer/Footer';
 import Topnav from '../Shared/Topnav/Topnav';
 import Counter from './Counter/Counter';
 import FeaturedTutor from './FeaturedTutor/FeaturedTutor';
@@ -11,6 +12,7 @@ const Home = () => {
             <Topbanner></Topbanner>
             <Counter></Counter>
             <FeaturedTutor></FeaturedTutor>
+            <Footer></Footer>
 
         </div>
     );
