@@ -3,6 +3,8 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
+import TRegistration from './Pages/TeacherRegistration/TRegistration';
+import NeedTeacher from './Pages/NeedTeacher/NeedTeacher';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/teacherReg" element={<TRegistration />} />
+        <Route path="/needTeacher" element={<NeedTeacher />} />
       </Routes>
 
     </div>

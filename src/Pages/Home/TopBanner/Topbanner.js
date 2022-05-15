@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const Topbanner = () => {
     return (
@@ -16,12 +17,22 @@ const Topbanner = () => {
                                 </h1>
 
                                 <p className='text-secondary text-start'>এক ওয়েবসাইটেই সকল বিষয়ের শিক্ষক এর সন্ধান </p>
-                                <Button className='d-flex flex-row bd-highlight mb-3' variant="success" size="md">
-                                    শিক্ষকের জন্য আবেদন করুন <FontAwesomeIcon className='mx-2 my-1' icon={faArrowRight} />
-                                </Button>
-                                <Button className='d-flex flex-row bd-highlight mb-3' variant="success" size="md">
-                                    শিক্ষক হিসেবে যুক্ত হোন <FontAwesomeIcon className='mx-2 my-1' icon={faArrowRight} />
-                                </Button>
+
+
+                                <Link className='TDN' to="/needTeacher">
+                                    <Button className='d-flex flex-row bd-highlight mb-3' variant="success" size="md">
+                                        শিক্ষকের জন্য আবেদন করুন <FontAwesomeIcon className='mx-2 my-1' icon={faArrowRight} />
+
+                                    </Button>
+                                </Link>
+                                <Link className='TDN' to="/teacherReg">
+                                    <Button className='d-flex flex-row bd-highlight mb-3' variant="success" size="md">
+                                        শিক্ষক হিসেবে যুক্ত হোন <FontAwesomeIcon className='mx-2 my-1' icon={faArrowRight} />
+
+                                    </Button>
+                                </Link>
+
+
 
                             </div>
 
